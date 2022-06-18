@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#F21B3F;
+    --cor2:#fc9191;
+    --cor3:#61707D;
+    --cor4:#00CC99;
+    --cor5:#C1E0F7;
+
+    --font-destaque: 'Chiken Sandwich';
+    --font-padrão: Verdana, coursive;
+}
+
+@font-face {
+    font-family: 'Chiken Sandwich';
+    src: url(../fonte/Chicken\ Sandwich.otf);
+    font-weight: normal;
+}
+nav{
+background-color:var(--cor2);
+border-radius: 0px 10px 0px 0px;
+}
+nav > a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+nav > a:hover{
+    background-color:var(--cor1);
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+header{
+background-color: var(--cor2);
+
+}
+
+
+
+.wallpaper-flores{
+    background-color: var(--cor5);
+    position: relative;
+    width: 100%;
+    height: 100px;
+    
+}
+.h1{
+   position: absolute;
+color:#fff;
+text-align: center;
+padding: inherit;
+top: -4px;
+left: auto;
+width: 100%;
+line-height: 30px;
+font-family: var(--font-destaque);
+font-size: 1.5em;
+text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+
+}
+
+body{
+    background-image: linear-gradient(to bottom ,  #8afdf4  ,#F21B3F );
+}
+
+main{
+    position: relative;
+    background-color: var(--cor2);
+    border-radius: 0px 0px 0px 30px;
+    box-shadow: rgba(0, 0, 0, 0.514);
+    padding: 5px;
+    margin: auto;
+}
+
+.sobre-mim{
+    max-width: 500px;
+    background-color:var(--cor2);
+    padding: 80px;
+    position: relative;
+    height: 100px;
+    border-radius: 10px  0px;
+    margin: 10px 0px 0px 10px;
+    
+}
+.sobre-mim img{
+    position: absolute;
+    top: 19%;
+   width: 150px;
+   left:3%;
+   margin:5px;
+   float: left;
+}
+
+.sobre-mim h1{
+    position: absolute;
+    color:white;
+    margin: 10px;
+    top: 15%;
+    left: 30%;
+   
+}
+
+
+.sobre-mim p{
+    position: absolute;
+    color:rgb(255, 255, 255);
+    margin: 3px 30px 10px 30px;
+    top: 35%;
+    left: 25%;
+ max-width: 500px;
+    font-size: 15px;
+
+}
+
+.trabalhos{
+    
+    width: 500px;
+     height: 500px;
+    left: 110%;
+    top: 0%;
+    float: right;
+    position: absolute;
+
+}
+
+.trabalhos .imagem-mitsuri{
+
+    top: 5%;
+   ;
+  width: 400px;
+    left: 20%;
+
+
+}
+
+.experiencias{
+    background-color: #C1E0F7;
+    border-radius:10px;
+    
+}
+
+.experiencias > h1{
+    color: var(--cor3);
+  padding: 10px;
+    font-family: 'chiken sandwich';
+    font-size: 40px;
+    
+}
+
+.experiencias > h2{
+    color: #61707D;
+    padding: 5px 0px 0px 10px;
+  text-transform: uppercase;
+}
+
+.experiencias .curso{
+    padding: 5px 0px 0px 10px;
+    color: #61707D;
+    
+}
+
+.experiencias .bootcamp{
+    padding: 5px 0px 30px 10px;
+    color: #61707D;
+}
+.link{
+    text-decoration: none;
+    color: #61707D;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.link-dio{
+    text-decoration: none;
+    color: #61707D;
+}
+
+.link-dio:hover{
+    text-decoration: underline;
+}
+
+.experiencias .curso-em-video{
+    width: 150px;
+    float: right;
+    position: absolute;
+    left: 35%;
+    top: 51%;
+  
+}
+
+.dio{
+    width: 150px;
+    float: right;
+    position: absolute;
+    left: 36%;
+    top: 83%;
+  
+}
+
+
+
+footer{
+    background-color: var(--cor2);
+    padding: 2px;
+    margin: 20px 0px 0px 0px;
+    color: #ffff;
+    text-align: center;
+    width: 100%;
+
+}
+footer >p > a{
+    padding: 5px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+footer > p >a:hover{
+    text-decoration: underline;
+}
