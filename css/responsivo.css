@@ -1,3 +1,59 @@
+@media (max-width: 1080px)
+{
+    .h1{
+        font-size: 20px;
+        top: 17px;
+    }
+    .sobre-mim img{
+        position: absolute;
+        width: 180px;
+       top:35%;
+       left:2%;
+       margin:5px;
+       float: left;
+    }
+    .sobre-mim h1{
+        position: absolute;
+        color: white;
+        margin: 10px;
+        top: 20%;
+        left: 30%;
+       
+    }
+
+    .trabalhos{
+        display: none;
+    }
+
+    .trabalhos .imagem-mitsuri{
+        display: none;
+    }
+    
+    
+    .sobre-mim p{
+        position: absolute;
+        color:rgb(255, 255, 255);
+        margin: 3px 30px 10px 30px;
+        top: 40%;
+        left: 25%;
+     max-width: 500px;
+        font-size: 12px;
+    
+    }
+
+    .experiencias .curso-em-video{
+        display: none;
+
+    }
+
+    .dio{
+        display: none;
+    }
+}
+
+
+
+
 @media (max-width: 900px){
     .h1{
         font-size: 20px;
