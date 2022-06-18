@@ -1,4 +1,4 @@
-@media (max-width: 1080px)
+@media (max-width: 2400px)
 {
     .h1{
         font-size: 20px;
@@ -7,7 +7,7 @@
     .sobre-mim img{
         position: absolute;
         width: 180px;
-       top:35%;
+       top:40%;
        left:2%;
        margin:5px;
        float: left;
